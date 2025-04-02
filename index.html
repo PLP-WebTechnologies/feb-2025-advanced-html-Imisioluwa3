@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements and Forms</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Dashboard</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome to Advanced HTML5 Elements and Forms Website</h1>
+        <div>
+            <p>Listen to this music while we go through the fundamentals of HTML5 Form elements and attributes.</p>
+            <img src="../feb-2025-advanced-html-Imisioluwa3/assets/wallpaper.jpg" alt="a dark night light" height="400">
+            <div>
+               <audio controls>
+                  <source src="../feb-2025-advanced-html-Imisioluwa3/assets/No Time.mp3" type="audio/mpeg">
+               </audio> 
+            </div>
+        </div>
+        <div>
+            <h2>List of elements in Forms</h2>
+            <ol type="I">
+                <li>Input</li>
+                <li>Label</li>
+                <li>Select</li>
+                <li>Textarea</li>
+                <li>Fieldset</li>
+            </ol>
+            <h4>This image has an external source</h4>
+            <img src="https://images.pexels.com/photos/31050106/pexels-photo-31050106/free-photo-of-starlit-night-over-snowy-mountain-range.jpeg" alt="Starlit Night Over Snowy Mountain Range" height="400">
+        </div>
+        <div>
+            <table border="1">
+                <caption>List of Registered Students</caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Phone Numbers</th>
+                        <th>Email Address</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Anekwe</td>
+                        <td>House 213 Queens Estate, Imo</td>
+                        <td>0807-321-9948</td>
+                        <td>janeks@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Miracle Chukwuebuka</td>
+                        <td>Plot 13 Open Heavens Estate, Oyo</td>
+                        <td>0905-521-5648</td>
+                        <td>mce@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Sarah Sam</td>
+                        <td>Block 121 Flat 5 off Maitama, Abuja</td>
+                        <td>0802-321-2148</td>
+                        <td>samsarah@outlook.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mercy Omisade</td>
+                        <td>Plot 2, Divine view Estate Ikeja Lagos</td>
+                        <td>0813-512-3396</td>
+                        <td>omisademercy@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Unique Momoh</td>
+                        <td>Plot 2, Great Dew Estate Abia</td>
+                        <td>0701-502-2696</td>
+                        <td>uqm@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h4>More Advanced Concepts</h4>
+            <p>To dive more into the full concepts of HTML5 Forms, kindly fill the form and await a responsee by mail.</p>
+            <form action="/submit" method="POST">
+                <label for="name">Full Name:</label>
+                <input type="text" name="name" id="name" required minlength="8" placeholder="Your Full Name">
+                <br><br>
+
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email" required placeholder="Your Email Address">
+                <br><br>
+
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required minlength="8" placeholder="Create Password">
+                <br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob" id="dob">
+                <br><br>
+
+                <p>Gender:</p>
+                <input type="radio" name="gender" id="male" value="Male">
+                <label for="male">Male</label>
+
+                <input type="radio" name="gender" id="female" value="Female">
+                <label for="female">Female</label>
+                <br><br>
+
+                <label for="state">State</label>
+                <select name="state" id="state">
+                    <option value="">---Select your state of residence---</option>
+                    <option value="Abia">Abia</option>
+                    <option value="Abia">Abuja</option>
+                    <option value="Abia">Imo</option>
+                    <option value="Abia">Lagos</option>
+                    <option value="Abia">Oyo</option>
+                </select>
+                <br><br>
+
+                <fieldset>
+                    <legend>Which of our pages are you subscribed to?</legend>
+                    <div>
+                        <input type="checkbox" name="subscriptions" id="youtube" value="youtube">
+                        <label for="youtube">YouTube</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="subscriptions" id="facebook" value="facebook">
+                        <label for="facebook">FaceBook</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="subscriptions" id="instagram" value="instagram">
+                        <label for="instagram">Instagram</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="subscriptions" id="github" value="github">
+                        <label for="github">Github</label>
+                    </div>
+                </fieldset>
+                
+                <input type="submit" value="Register" id="register">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright 2025 Advanced HTML5 Elements and Forms</p>
+    </footer>
+</body>
+</html>
